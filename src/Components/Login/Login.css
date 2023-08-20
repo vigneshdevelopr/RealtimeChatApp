@@ -1,0 +1,101 @@
+.login-container {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    -webkit-box-shadow: 10px 5px 25px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 5px 25px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 5px 25px 2px rgba(0, 0, 0, 0.75);
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .login-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .login-input input {
+    outline-width: 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .password-toggle-icon:hover {
+    color: #00a4e4;
+  }
+  
+  .button-sec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .login-button {
+    background-color: #00a4e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0093cb;
+  }
+  
+  .google-login-button {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: fit-content;
+  }
+  
+  
